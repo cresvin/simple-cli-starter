@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "type": "module",
   "description": "A simple CLI starter",
+  "repository": "git+https://github.com/cresvin/simple-cli-starter.git",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "hi": "dist/index.js"
   },
@@ -12,7 +17,6 @@
     "link": "pnpm link -g",
     "fmt": "prettier --write ."
   },
-  "license": "MIT",
   "devDependencies": {
     "@types/figlet": "^1.5.8",
     "@types/node": "^22.5.5",
